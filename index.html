@@ -1832,6 +1832,24 @@
             transform-origin: center center;
         }
 
+        
+        .project-card-link {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .project-card-link img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
         .about-mission {
             z-index: 2;
             transform-origin: center center;
@@ -2332,7 +2350,7 @@
         <em>you can </em><span id="hero-typed">setup</span><span class="hero-cursor" aria-hidden="true">|</span>
     </h1>
     <p class="hero-subtitle" data-i18n="hero_desc">
-        My Name Is Ilham, A People Who Keep The Systems Running And Supporting Continued Business. <strong>Build on technology and modern infrastructure that's safe, compliant and secure.</strong>
+        I'm Ilham, A People Who Keep The Systems Running And Supporting Continued Business. <strong>Build on technology and modern infrastructure that's safe, compliant and secure.</strong>
     </p>
     <div class="hero-buttons">
         <a href="#works" class="btn-primary">
@@ -2421,15 +2439,15 @@
                 <div class="about-overview-layout">
                     <div class="overview-left">
                         <h2 class="about-heading">
-                            VISIONARY<br>DIGITAL<br>LEADERSHIP.
+                            DIGITAL<br>VISIONARY.
                         </h2>
                     </div>
                     <div class="overview-right">
                         <p class="about-lead-text">
-                            Led by <strong>Mohammad Ilham</strong>, dedicated to bridging modern technology and business growth through world-class engineering and resilient systems.
+                            Led by <strong>Mohammad Ilham</strong>, dedicated to bridging modern technology and business growth through world-class technology and resilient systems.
                         </p>
                         <p class="about-sub-text">
-                            Building global technology standards and robust modern infrastructure that empowers businesses to stay safe, compliant, and continuously operational 24/7.
+                            Building global technology standards and modern infrastructure that empowers businesses to stay safe, compliant, and continuously operational 24/7.
                         </p>
                     </div>
                 </div>
@@ -2447,7 +2465,7 @@
                     EMPOWERING BUSINESS<br><em class="about-heading-em">GO DIGITAL.</em>
                 </h2>
                 <p class="about-mission-desc">
-                    Our mission is to democratize advanced technology, making scalable, reliable, and secure infrastructure accessible to empower modern businesses.
+                    Our mission is to building advanced technology, making scalable, reliable, and secure infrastructure accessible to empower modern businesses.
                 </p>
                 <div class="about-cards-grid">
                     <div class="about-card">
@@ -2455,7 +2473,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
                         </div>
                         <h4>PRECISION</h4>
-                        <p>High-precision code and hardened architecture for maximum security.</p>
+                        <p>High-precision and hardened architecture for maximum security.</p>
                     </div>
                     <div class="about-card">
                         <div class="about-card-icon">
@@ -2505,7 +2523,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                         </div>
                         <h4>SUSTAINABILITY</h4>
-                        <p>Building robust, manageable systems designed to thrive for the long term.</p>
+                        <p>Building manageable systems designed to running for the long term.</p>
                     </div>
                 </div>
             </div>
@@ -2525,19 +2543,19 @@
                     <div class="metrics-right">
                         <div class="about-stats-grid">
                             <div class="about-stat">
-                                <span class="about-stat-num">50+</span>
+                                <span class="about-stat-num">10+</span>
                                 <span class="about-stat-lbl">PROJECTS COMPLETED</span>
                             </div>
                             <div class="about-stat">
                                 <span class="about-stat-num">99%</span>
-                                <span class="about-stat-lbl">CLIENT SATISFACTION</span>
+                                <span class="about-stat-lbl">SUCCESS RATE</span>
                             </div>
                             <div class="about-stat">
                                 <span class="about-stat-num">24/7</span>
                                 <span class="about-stat-lbl">DEDICATED SUPPORT</span>
                             </div>
                             <div class="about-stat">
-                                <span class="about-stat-num">2+</span>
+                                <span class="about-stat-num">3+</span>
                                 <span class="about-stat-lbl">YEARS EXPERIENCE</span>
                             </div>
                         </div>
@@ -2554,47 +2572,78 @@
             <div class="works-header">
                 <div class="works-title-wrap">
                     <h2 class="works-title" data-i18n="works_title">Selected Works</h2>
-                    <p class="works-subtitle" data-i18n="works_desc">A curated collection of projects bridging modern web architecture, cloud systems, and digital engineering.</p>
+                    <p class="works-subtitle" data-i18n="works_desc">A collection of projects bridging modern architecture, cloud systems, and digital engineering.</p>
                 </div>
                 <div class="works-header-action">
-                    <a href="#contact" class="works-all-btn">
-                        <span data-i18n="works_view_all">View all projects</span>
+                    <a href="#works" class="works-all-btn">
+                        <span data-i18n href="#works">View all projects</span>
                         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                     </a>
                 </div>
             </div>
 
             <div class="works-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-card-visual">
-                        <img src="asset/project1.png" onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project1.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project1.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project1.jpg';}" alt="Web Builder Platform" loading="lazy">
-                        <div class="project-overlay">
-                            <span class="project-link-badge">
-                                View Details
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-meta">
-                            <span class="project-category">Full-Stack &amp; Cloud</span>
-                            <span class="project-year">2026</span>
-                        </div>
-                        <h3 class="project-name">Web Builder &amp; CMS Platform</h3>
-                        <p class="project-summary">High-performance modular web builder built with Next.js native architecture and SQLite backend.</p>
-                        <div class="project-tags">
-                            <span>Next.js 14</span>
-                            <span>TypeScript</span>
-                            <span>TailwindCSS</span>
-                            <span>Node.js</span>
-                        </div>
-                    </div>
-                </div>
+                
+<!-- Project 1 -->
+<div class="project-card">
+
+    <div class="project-card-visual">
+
+        <a href="https://file.ilhammasali.my.id"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="project-card-link">
+
+            <img src="asset/project1.png"
+                onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project1.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project1.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project1.jpg';}"
+                alt="Web Builder Platform"
+                loading="lazy">
+
+            <div class="project-overlay">
+                <span class="project-link-badge">
+                    View Details
+                    <svg width="14" height="14" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </span>
+            </div>
+
+        </a>
+
+    </div>
+
+    <div class="project-info">
+        <div class="project-meta">
+            <span class="project-category">Full-Stack &amp; Cloud</span>
+            <span class="project-year">2026</span>
+        </div>
+
+        <h3 class="project-name">Web Builder &amp; CMS Platform</h3>
+
+        <p class="project-summary">
+            High-performance modular web builder built with Next.js native architecture and SQLite backend.
+        </p>
+
+        <div class="project-tags">
+            <span>Next.js 14</span>
+            <span>TypeScript</span>
+            <span>TailwindCSS</span>
+            <span>Node.js</span>
+        </div>
+    </div>
+
+</div>
+
 
                 <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-card-visual">
+
+                    <a href="https://wa.ilhammasali.my.id"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-card-link">    
                         <img src="asset/project2.png" onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project2.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project2.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project2.jpg';}" alt="Digital Menu & QR POS" loading="lazy">
                         <div class="project-overlay">
                             <span class="project-link-badge">
@@ -2602,6 +2651,8 @@
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
                             </span>
                         </div>
+
+                    </a>    
                     </div>
                     <div class="project-info">
                         <div class="project-meta">
@@ -2622,6 +2673,11 @@
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-card-visual">
+                    <a href="https://webmail.centraldataaccess.co.id/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-card-link"> 
+
                         <img src="asset/project3.png" onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project3.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project3.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project3.jpg';}" alt="Infrastructure Monitor" loading="lazy">
                         <div class="project-overlay">
                             <span class="project-link-badge">
@@ -2629,6 +2685,7 @@
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
                             </span>
                         </div>
+                    </a>
                     </div>
                     <div class="project-info">
                         <div class="project-meta">
@@ -2649,6 +2706,11 @@
                 <!-- Project 4 -->
                 <div class="project-card">
                     <div class="project-card-visual">
+                    <a href="#works"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-card-link"> 
+
                         <img src="asset/project4.png" onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project4.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project4.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project4.jpg';}" alt="High-Performance API" loading="lazy">
                         <div class="project-overlay">
                             <span class="project-link-badge">
@@ -2656,6 +2718,7 @@
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
                             </span>
                         </div>
+                    </a>
                     </div>
                     <div class="project-info">
                         <div class="project-meta">
@@ -2676,6 +2739,11 @@
                 <!-- Project 5 -->
                 <div class="project-card">
                     <div class="project-card-visual">
+                    <a href="https://centraldataaccess.co.id/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-card-link">
+                    
                         <img src="asset/project5.png" onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project5.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project5.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project5.jpg';}" alt="Enterprise Security" loading="lazy">
                         <div class="project-overlay">
                             <span class="project-link-badge">
@@ -2683,6 +2751,7 @@
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
                             </span>
                         </div>
+                    </a>
                     </div>
                     <div class="project-info">
                         <div class="project-meta">
@@ -2703,6 +2772,11 @@
                 <!-- Project 6 -->
                 <div class="project-card">
                     <div class="project-card-visual">
+                    <a href="https://ilhammasali.my.id"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-card-link">
+
                         <img src="asset/project6.png" onerror="if(!this.dataset.t1){this.dataset.t1=1;this.src='asset/project6.jpg';}else if(!this.dataset.t2){this.dataset.t2=1;this.src='assets/project6.png';}else if(!this.dataset.t3){this.dataset.t3=1;this.src='assets/project6.jpg';}" alt="Cloud Cluster Orchestrator" loading="lazy">
                         <div class="project-overlay">
                             <span class="project-link-badge">
@@ -2710,6 +2784,8 @@
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
                             </span>
                         </div>
+
+                    </a>
                     </div>
                     <div class="project-info">
                         <div class="project-meta">
